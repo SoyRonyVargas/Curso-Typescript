@@ -4,7 +4,7 @@
         name: string
         age: number
         powers: string[]
-        getName: ( id: string) => string
+        getName: ( id: string ) => string
     }
 
     let flash: Hero
@@ -19,7 +19,5 @@
     }
 
     console.log(flash.getName("s"));
-
-    // console.log(flash?.getName!());
 
 })()

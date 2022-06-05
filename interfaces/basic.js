@@ -10,5 +10,4 @@
         }
     };
     console.log(flash.getName("s"));
-    // console.log(flash?.getName!());
 })();
